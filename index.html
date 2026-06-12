@@ -1,86 +1,424 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mathis Aurensan - Portfolio</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfolio de Mathis Aurensan — Étudiant BUT1 Informatique à l'IUT de Montreuil, recherche de stage." />
+  <title>Mathis Aurensan — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
 
-<header>
-    <div class="container">
-        <h1>Mathis Aurensan</h1>
-        <p>Étudiant BUT 1 Informatique • IUT de Montreuil</p>
+<body>
+<a class="skip-link" href="#contenu">Aller au contenu</a>
+
+<header class="site-header" role="banner">
+  <div class="container header-inner">
+    <div class="brand">
+      <a class="brand-link" href="#top" aria-label="Retour en haut de la page">
+        <span class="brand-mark" aria-hidden="true">MA</span>
+        <span class="brand-name">Mathis Aurensan</span>
+      </a>
     </div>
+
+    <nav class="nav" aria-label="Navigation principale">
+      <ul class="nav-list">
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#competences">Compétences</a></li>
+        <li><a href="#parcours">Parcours</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <a class="btn btn-ghost" href="#contact">Me contacter</a>
+      <a class="btn btn-primary" href="#projets">Voir mes projets</a>
+    </div>
+  </div>
 </header>
 
-<nav>
-    <a href="#apropos">À propos</a>
-    <a href="#projets">Projets</a>
-    <a href="#competences">Compétences</a>
-    <a href="#contact">Contact</a>
-</nav>
+<main id="contenu" class="main" role="main">
+  <section id="top" class="hero" aria-labelledby="hero-title">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <p class="eyebrow">Étudiant BUT1 Informatique • IUT de Montreuil</p>
+        <h1 id="hero-title" class="hero-title">Portfolio</h1>
 
-<section id="apropos" class="container">
-    <h2>À propos</h2>
-    <p>
-        Je suis étudiant en BUT Informatique à l'IUT de Montreuil.
-        Je recherche un stage afin de développer mes compétences en développement,
-        bases de données et algorithmique.
-    </p>
-</section>
+        <p class="hero-subtitle">
+          Je suis <strong>Mathis Aurensan</strong>, étudiant en <strong>BUT Informatique</strong>.
+          Je recherche un <strong>stage</strong> afin de mettre en pratique mes compétences,
+          progresser dans un environnement professionnel et contribuer à des projets concrets.
+        </p>
 
-<section id="projets" class="container">
-    <h2>Mes Projets</h2>
+        <div class="hero-badges" aria-label="Points clés">
+          <span class="badge">Développement Web</span>
+          <span class="badge">Java / POO</span>
+          <span class="badge">SQL / Bases de données</span>
+          <span class="badge">Algorithmique</span>
+          <span class="badge">Linux</span>
+        </div>
 
-    <div class="card">
-        <h3>Labyrinthe Java</h3>
-        <p>Projet de développement orienté objet en Java.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#contact">Me contacter pour un stage</a>
+          <a class="btn btn-ghost" href="#projets">Voir mes SAÉ</a>
+        </div>
+
+        <ul class="hero-meta" aria-label="Informations rapides">
+          <li><strong>Formation :</strong> BUT1 Informatique</li>
+          <li><strong>Établissement :</strong> IUT de Montreuil</li>
+          <li><strong>Objectif :</strong> Stage en informatique</li>
+        </ul>
+      </div>
+
+      <aside class="hero-card" aria-label="Carte profil">
+        <div class="profile">
+          <div class="profile-text">
+            <h2 class="profile-name">Mathis Aurensan</h2>
+            <p class="profile-role">Étudiant BUT1 Informatique</p>
+            <p class="profile-focus">
+              Recherche <strong>stage</strong> — développement, bases de données, algorithmique et web.
+            </p>
+          </div>
+
+          <div class="profile-links" aria-label="Liens externes">
+            <a class="link" href="https://github.com/brotunel-art" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="link" href="mailto:mathisaurensan27@gmail.com">Email</a>
+          </div>
+        </div>
+
+        <div class="profile-stats" aria-label="Atouts">
+          <div class="stat">
+            <p class="stat-label">Approche</p>
+            <p class="stat-value">Sérieuse</p>
+          </div>
+          <div class="stat">
+            <p class="stat-label">Travail</p>
+            <p class="stat-value">Équipe</p>
+          </div>
+          <div class="stat">
+            <p class="stat-label">Priorité</p>
+            <p class="stat-value">Progrès</p>
+          </div>
+        </div>
+      </aside>
     </div>
+  </section>
 
-    <div class="card">
-        <h3>Tower Defense</h3>
-        <p>Projet de développement réalisé en équipe.</p>
+  <section id="apropos" class="section" aria-labelledby="apropos-title">
+    <div class="container">
+      <header class="section-header">
+        <h2 id="apropos-title">À propos</h2>
+        <p class="section-subtitle">Un profil motivé, sérieux et habitué aux projets réalisés en équipe.</p>
+      </header>
+
+      <div class="two-col">
+        <div class="card">
+          <h3>Ma façon de travailler</h3>
+          <p>
+            J'aime partir d'un besoin, réfléchir à une solution, puis la réaliser avec une structure claire.
+            Les projets réalisés en BUT Informatique m'ont permis de progresser en développement,
+            en bases de données, en algorithmique et en travail d'équipe.
+          </p>
+          <ul class="checklist">
+            <li>Code structuré et compréhensible</li>
+            <li>Communication simple avec l'équipe</li>
+            <li>Respect des consignes et des délais</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Ce que je recherche</h3>
+          <p>
+            Je recherche un stage dans le domaine de l'informatique pour appliquer mes connaissances,
+            découvrir le monde professionnel et continuer à développer mes compétences techniques.
+          </p>
+          <p class="muted">
+            Ce portfolio présente mes projets de première année ainsi que les compétences acquises.
+          </p>
+        </div>
+      </div>
     </div>
+  </section>
 
-    <div class="card">
-        <h3>O'Survies</h3>
-        <p>Création d'un site web HTML/CSS.</p>
+  <section id="projets" class="section" aria-labelledby="projets-title">
+    <div class="container">
+      <header class="section-header">
+        <h2 id="projets-title">Projets / SAÉ</h2>
+        <p class="section-subtitle">
+          Voici les principaux projets réalisés pendant mon BUT Informatique, seul ou en équipe.
+        </p>
+      </header>
+
+      <div class="projects-grid">
+        <article class="project card">
+          <p class="project-tag">SAÉ Web</p>
+          <h3 class="project-title">Site web O'Survies</h3>
+          <p class="project-desc">
+            Création d'un site web en équipe avec une structure claire, une navigation cohérente et une mise en page propre.
+          </p>
+          <ul class="project-highlights">
+            <li>Structuration HTML</li>
+            <li>Mise en forme CSS</li>
+            <li>Organisation du travail en groupe</li>
+          </ul>
+          <div class="project-tech">
+            <span class="pill">HTML</span><span class="pill">CSS</span><span class="pill">Web</span><span class="pill">Équipe</span>
+          </div>
+          <div class="project-links">
+            <a class="btn btn-primary" href="https://github.com/brotunel-art/Sae-O-survies-PremierSemestre" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project card">
+          <p class="project-tag">SAÉ Développement</p>
+          <h3 class="project-title">Labyrinthe en Java</h3>
+          <p class="project-desc">
+            Projet Java du premier semestre basé sur la création et la gestion d'un labyrinthe.
+          </p>
+          <ul class="project-highlights">
+            <li>Programmation orientée objet</li>
+            <li>Conception de classes</li>
+            <li>Débogage et amélioration progressive</li>
+          </ul>
+          <div class="project-tech">
+            <span class="pill">Java</span><span class="pill">POO</span><span class="pill">Algorithmes</span>
+          </div>
+          <div class="project-links">
+            <a class="btn btn-primary" href="https://github.com/brotunel-art/Sae-java-PremierSemestre-labyrinthe" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project card">
+          <p class="project-tag">SAÉ Développement</p>
+          <h3 class="project-title">Tower Defense</h3>
+          <p class="project-desc">
+            Projet de développement d'un jeu de type Tower Defense réalisé en équipe.
+          </p>
+          <ul class="project-highlights">
+            <li>Travail collaboratif</li>
+            <li>Gestion de la logique du jeu</li>
+            <li>Organisation du code</li>
+          </ul>
+          <div class="project-tech">
+            <span class="pill">Java</span><span class="pill">Jeu</span><span class="pill">Projet équipe</span>
+          </div>
+          <div class="project-links">
+            <a class="btn btn-primary" href="https://github.com/Ktur93/SAE_Tower_Defense" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project card">
+          <p class="project-tag">SAÉ Base de données</p>
+          <h3 class="project-title">Base de données eSport</h3>
+          <p class="project-desc">
+            Conception d'une base de données autour de l'univers eSport avec tables, relations et requêtes SQL.
+          </p>
+          <ul class="project-highlights">
+            <li>Modélisation relationnelle</li>
+            <li>Clés primaires et étrangères</li>
+            <li>Requêtes SQL</li>
+          </ul>
+          <div class="project-tech">
+            <span class="pill">SQL</span><span class="pill">BD</span><span class="pill">Modélisation</span>
+          </div>
+          <div class="project-links">
+            <a class="btn btn-primary" href="https://github.com/brotunel-art/Sae-BD1-eSport" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project card">
+          <p class="project-tag">SAÉ Base de données</p>
+          <h3 class="project-title">Base de données Streaming</h3>
+          <p class="project-desc">
+            Projet de base de données sur une plateforme de streaming avec exploitation des données en SQL.
+          </p>
+          <ul class="project-highlights">
+            <li>Jointures SQL</li>
+            <li>Agrégations</li>
+            <li>Analyse de données</li>
+          </ul>
+          <div class="project-tech">
+            <span class="pill">SQL</span><span class="pill">Jointures</span><span class="pill">Agrégations</span>
+          </div>
+          <div class="project-links">
+            <a class="btn btn-primary" href="https://github.com/brotunel-art/Sae-BD2-Streaming" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project card">
+          <p class="project-tag">SAÉ Algorithmique</p>
+          <h3 class="project-title">Projet Tuiles</h3>
+          <p class="project-desc">
+            Projet d'algorithmique basé sur la résolution de problèmes autour de tuiles.
+          </p>
+          <ul class="project-highlights">
+            <li>Réflexion algorithmique</li>
+            <li>Résolution de problèmes</li>
+            <li>Analyse des solutions</li>
+          </ul>
+          <div class="project-tech">
+            <span class="pill">Algorithmique</span><span class="pill">Logique</span><span class="pill">Analyse</span>
+          </div>
+          <div class="project-links">
+            <a class="btn btn-primary" href="https://github.com/brotunel-art/Sae-Algo-Tuiles" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project card">
+          <p class="project-tag">SAÉ Algorithmique</p>
+          <h3 class="project-title">Algorithmique premier semestre</h3>
+          <p class="project-desc">
+            Mise en œuvre d'algorithmes et apprentissage des bases de l'analyse algorithmique.
+          </p>
+          <ul class="project-highlights">
+            <li>Implémentation d'algorithmes</li>
+            <li>Tests et vérification</li>
+            <li>Compréhension de la complexité</li>
+          </ul>
+          <div class="project-tech">
+            <span class="pill">Algo</span><span class="pill">Complexité</span><span class="pill">Tests</span>
+          </div>
+          <div class="project-links">
+            <a class="btn btn-primary" href="https://github.com/brotunel-art/Sae-Algo-PremierSemestre" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project card">
+          <p class="project-tag">Portfolio</p>
+          <h3 class="project-title">Portfolio personnel</h3>
+          <p class="project-desc">
+            Création de mon portfolio pour présenter mon profil, mes projets et mes compétences.
+          </p>
+          <ul class="project-highlights">
+            <li>Présentation professionnelle</li>
+            <li>Organisation du contenu</li>
+            <li>Mise en avant des projets</li>
+          </ul>
+          <div class="project-tech">
+            <span class="pill">HTML</span><span class="pill">CSS</span><span class="pill">GitHub</span>
+          </div>
+          <div class="project-links">
+            <a class="btn btn-primary" href="https://github.com/brotunel-art/portfolio" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </article>
+      </div>
     </div>
+  </section>
 
-    <div class="card">
-        <h3>Base de données eSport</h3>
-        <p>Conception et exploitation d'une base SQL.</p>
+  <section id="competences" class="section" aria-labelledby="competences-title">
+    <div class="container">
+      <header class="section-header">
+        <h2 id="competences-title">Compétences</h2>
+        <p class="section-subtitle">Un socle technique en progression grâce aux cours et aux SAÉ.</p>
+      </header>
+
+      <div class="skills-grid">
+        <div class="card">
+          <h3>Techniques</h3>
+          <ul class="skills-list">
+            <li><strong>Java</strong> — programmation orientée objet</li>
+            <li><strong>HTML5 / CSS3</strong> — structure et mise en page web</li>
+            <li><strong>C</strong> — bases de la programmation</li>
+            <li><strong>Linux</strong> — terminal, fichiers, commandes</li>
+            <li><strong>SQL</strong> — requêtes, jointures, modélisation</li>
+            <li><strong>Algorithmique</strong> — logique, résolution de problèmes</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Transversales</h3>
+          <ul class="skills-list">
+            <li><strong>Travail en équipe</strong> — projets réalisés en groupe</li>
+            <li><strong>Organisation</strong> — répartition des tâches et suivi</li>
+            <li><strong>Rigueur</strong> — respect des consignes et amélioration du travail</li>
+            <li><strong>Curiosité</strong> — envie d'apprendre et de progresser</li>
+          </ul>
+        </div>
+      </div>
     </div>
+  </section>
 
-    <div class="card">
-        <h3>Plateforme Streaming</h3>
-        <p>Projet avancé de base de données.</p>
+  <section id="parcours" class="section" aria-labelledby="parcours-title">
+    <div class="container">
+      <header class="section-header">
+        <h2 id="parcours-title">Parcours</h2>
+        <p class="section-subtitle">Ma formation actuelle et mon objectif professionnel.</p>
+      </header>
+
+      <div class="timeline">
+        <article class="timeline-item card">
+          <h3>BUT Informatique — IUT de Montreuil</h3>
+          <p class="timeline-meta">2025 – 2028 • BUT1 en cours</p>
+          <p>
+            Formation en développement, algorithmique, bases de données, système, réseau et méthodologie projet.
+          </p>
+        </article>
+
+        <article class="timeline-item card">
+          <h3>Objectif actuel</h3>
+          <p class="timeline-meta">Recherche de stage</p>
+          <p>
+            Je souhaite intégrer une structure dans laquelle je pourrai apprendre, progresser et participer à des missions concrètes en informatique.
+          </p>
+        </article>
+      </div>
     </div>
-</section>
+  </section>
 
-<section id="competences" class="container">
-    <h2>Compétences</h2>
-    <ul>
-        <li>Java</li>
-        <li>HTML / CSS</li>
-        <li>SQL</li>
-        <li>Linux</li>
-        <li>Algorithmique</li>
-    </ul>
-</section>
+  <section id="contact" class="section" aria-labelledby="contact-title">
+    <div class="container">
+      <header class="section-header">
+        <h2 id="contact-title">Contact</h2>
+        <p class="section-subtitle">Pour un stage ou un échange autour de mon profil, vous pouvez me contacter.</p>
+      </header>
 
-<section id="contact" class="container">
-    <h2>Contact</h2>
-    <p>Email : mathisaurensan27@gmail.com</p>
-    <p>Téléphone : 06 50 76 13 25</p>
-    <p>GitHub : github.com/brotunel-art</p>
-</section>
+      <div class="contact-grid">
+        <div class="card">
+          <h3>Me joindre</h3>
+          <ul class="contact-list">
+            <li>
+              <span class="contact-label">Email</span>
+              <a href="mailto:mathisaurensan27@gmail.com">mathisaurensan27@gmail.com</a>
+            </li>
+            <li>
+              <span class="contact-label">Téléphone</span>
+              <a href="tel:+33650761325">06 50 76 13 25</a>
+            </li>
+            <li>
+              <span class="contact-label">GitHub</span>
+              <a href="https://github.com/brotunel-art" target="_blank" rel="noreferrer">github.com/brotunel-art</a>
+            </li>
+          </ul>
 
-<footer>
-    <p>© 2026 Mathis Aurensan</p>
-</footer>
+          <div class="contact-actions">
+            <a class="btn btn-primary" href="mailto:mathisaurensan27@gmail.com?subject=Contact%20-%20Stage%20informatique">Envoyer un email</a>
+            <a class="btn btn-ghost" href="https://github.com/brotunel-art" target="_blank" rel="noreferrer">Voir mon GitHub</a>
+          </div>
+        </div>
 
+        <div class="card">
+          <h3>Informations</h3>
+          <ul class="bullets">
+            <li><strong>Nom :</strong> Mathis Aurensan</li>
+            <li><strong>Formation :</strong> BUT1 Informatique</li>
+            <li><strong>Établissement :</strong> IUT de Montreuil</li>
+            <li><strong>Recherche :</strong> Stage</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Mathis Aurensan — Portfolio</p>
+      <p class="muted">Construit en HTML/CSS, hébergé sur GitHub Pages.</p>
+    </div>
+  </footer>
+</main>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 </body>
 </html>
