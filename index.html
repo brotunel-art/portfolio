@@ -1,98 +1,86 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Mathis Aurensan</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mathis Aurensan - Portfolio</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- En-tête du site -->
-    <header>
-        <nav>
-            <h1>Mathis Aurensan</h1>
-            <ul>
-                <li><a href="#accueil">Accueil</a></li>
-                <li><a href="#apropos">À propos</a></li>
-                <li><a href="#competences">Compétences</a></li>
-                <li><a href="#projets">Projets</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+<header>
+    <div class="container">
+        <h1>Mathis Aurensan</h1>
+        <p>Étudiant BUT 1 Informatique • IUT de Montreuil</p>
+    </div>
+</header>
 
-    <!-- Section accueil -->
-    <section id="accueil" class="hero">
-        <h2>Bienvenue sur mon portfolio</h2>
-        <p>Je m'appelle Mathis Aurensan, étudiant en BUT1 Informatique à l'IUT de Montreuil.</p>
-        <a href="#projets" class="bouton">Voir mes projets</a>
-    </section>
+<nav>
+    <a href="#apropos">À propos</a>
+    <a href="#projets">Projets</a>
+    <a href="#competences">Compétences</a>
+    <a href="#contact">Contact</a>
+</nav>
 
-    <!-- Section à propos -->
-    <section id="apropos">
-        <h2>À propos de moi</h2>
-        <p>
-            Je suis étudiant en première année de BUT Informatique à l'IUT de Montreuil.
-            Ce portfolio présente mes compétences, mes projets et mon parcours.
-        </p>
-    </section>
+<section id="apropos" class="container">
+    <h2>À propos</h2>
+    <p>
+        Je suis étudiant en BUT Informatique à l'IUT de Montreuil.
+        Je recherche un stage afin de développer mes compétences en développement,
+        bases de données et algorithmique.
+    </p>
+</section>
 
-    <!-- Section compétences -->
-    <section id="competences">
-        <h2>Mes compétences</h2>
+<section id="projets" class="container">
+    <h2>Mes Projets</h2>
 
-        <div class="cartes">
-            <div class="carte">
-                <h3>HTML / CSS</h3>
-                <p>Création de pages web simples, structurées et responsives.</p>
-            </div>
+    <div class="card">
+        <h3>Labyrinthe Java</h3>
+        <p>Projet de développement orienté objet en Java.</p>
+    </div>
 
-            <div class="carte">
-                <h3>Programmation</h3>
-                <p>Ajoute ici les langages que tu apprends : Python, Java, C, etc.</p>
-            </div>
+    <div class="card">
+        <h3>Tower Defense</h3>
+        <p>Projet de développement réalisé en équipe.</p>
+    </div>
 
-            <div class="carte">
-                <h3>Base de données</h3>
-                <p>Ajoute ici tes connaissances en SQL ou en modélisation.</p>
-            </div>
-        </div>
-    </section>
+    <div class="card">
+        <h3>O'Survies</h3>
+        <p>Création d'un site web HTML/CSS.</p>
+    </div>
 
-    <!-- Section projets -->
-    <section id="projets">
-        <h2>Mes projets</h2>
+    <div class="card">
+        <h3>Base de données eSport</h3>
+        <p>Conception et exploitation d'une base SQL.</p>
+    </div>
 
-        <div class="cartes">
-            <div class="carte">
-                <h3>Projet 1</h3>
-                <p>Description de ton premier projet.</p>
-            </div>
+    <div class="card">
+        <h3>Plateforme Streaming</h3>
+        <p>Projet avancé de base de données.</p>
+    </div>
+</section>
 
-            <div class="carte">
-                <h3>Projet 2</h3>
-                <p>Description de ton deuxième projet.</p>
-            </div>
+<section id="competences" class="container">
+    <h2>Compétences</h2>
+    <ul>
+        <li>Java</li>
+        <li>HTML / CSS</li>
+        <li>SQL</li>
+        <li>Linux</li>
+        <li>Algorithmique</li>
+    </ul>
+</section>
 
-            <div class="carte">
-                <h3>Projet 3</h3>
-                <p>Description de ton troisième projet.</p>
-            </div>
-        </div>
-    </section>
+<section id="contact" class="container">
+    <h2>Contact</h2>
+    <p>Email : mathisaurensan27@gmail.com</p>
+    <p>Téléphone : 06 50 76 13 25</p>
+    <p>GitHub : github.com/brotunel-art</p>
+</section>
 
-    <!-- Section contact -->
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email : ajoute-ton-email@example.com</p>
-        <p>LinkedIn / GitHub : ajoute tes liens ici</p>
-    </section>
-
-    <!-- Pied de page -->
-    <footer>
-        <p>&copy; 2026 Mathis Aurensan - Portfolio</p>
-    </footer>
+<footer>
+    <p>© 2026 Mathis Aurensan</p>
+</footer>
 
 </body>
 </html>
